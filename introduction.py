@@ -1,5 +1,1 @@
-print("nadun")
-print("Why m I here?")
-print("I don't understand what you are saying")
-print("What was that guitar?")
-print("R aliens real")
+print("jbngrbrjnibgrngb")
