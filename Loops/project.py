@@ -1,4 +1,4 @@
-#Write a program to calculate the n number power
+
 num=int(input("Enter a number"))
 power=int(input("Enter a power"))
 
