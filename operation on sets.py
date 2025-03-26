@@ -1,0 +1,12 @@
+my_set1={1,2,3}
+print(my_set1)
+my_set2={1.0,"hello",(1,2,3)}
+print(my_set2)
+my_set3={1,2,3,4,3,2,4}
+print(my_set3)
+my_set4={1,2,3,2}
+print(my_set4)
+num_set=set([0,1,3,4,5])
+print(num_set)
+num_set.pop()
+print(num_set)
