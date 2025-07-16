@@ -1,0 +1,21 @@
+from tkinter import *
+root=Tk()
+root.geometry("300x300")
+root.title("Multiplication")
+def multiply():
+    num1=int(firstnum.get())
+    num2=int(secondnum.get())
+    result=num1*num2
+    answer.set(result)
+firstnum=StringVar()
+secondnum=StringVar()
+answer=StringVar()
+firstnum_entry=Entry(root,textvariable=firstnum)
+secondnum_entry=Entry(root,textvariable=secondnum)
+answer_entry=Entry(root,textvariable=answer)
+firstnum_entry.pack()
+secondnum_entry.pack()
+answer_entry.pack()
+multiply_button=Button(root,text="Multiply",command=multiply)
+multiply_button.pack()
+root.mainloop()
