@@ -1,4 +1,3 @@
-#write a python program to create an application to take inputs of the principal amount, time period and rate of interest from the user, and return the simple interest and compound interest on the same principle using the tkinter library
 import tkinter as tk
 from tkinter import messagebox
 
@@ -57,4 +56,5 @@ class InterestCalculator:
 
 if __name__ == "__main__":
     calculator = InterestCalculator()
+
     calculator.run()
